@@ -13,6 +13,15 @@ h1 {
     font-size: 64px;
 }
 
+bar {
+    float:left;
+    margin: 20px;
+    padding:10px;
+    border: 5px solid #f0f6f0;
+    font-size: 32px;
+    text-align: center;
+}
+
 .ITCH:before {
     content: "";
     display: inline-block;
@@ -45,7 +54,7 @@ p {
 * {
     text-align:center;
     font-family:monogram;
-    color: #f0f6f0
+    color: #f0f6f0;
 }
 
 #bg {

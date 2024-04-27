@@ -4,10 +4,65 @@
 }
 
 html {
-    background-color: #222323
+    background-color: #222323;
+    padding: 20px;
+}
+
+h1 {
+    
+    font-size: 64px;
+}
+
+.ITCH:before {
+    content: "";
+    display: inline-block;
+    width: 26.5px;
+    height: 24px;
+
+    background: url(ITCH_ICON.png);
+    background-size: contain;
+
+    margin-bottom:-6px;
+    margin-right: 5px;
+}
+
+.TWITTER:before {
+    content: "";
+    display: inline-block;
+    width: 23.5px;
+    height: 24px;
+    background: url(TWITTER_ICON.png);
+    background-size: contain;
+    margin-bottom: -6px;
+    margin-right: 5px;
+}
+
+
+p {
+    font-size: 32px;
 }
 
 * {
+    text-align:center;
     font-family:monogram;
     color: #f0f6f0
+}
+
+#bg {
+    background: url("Banner Progress.png");
+    background-repeat: repeat-x;
+    background-size: auto 48px;
+
+    height: 48px;
+    animation: bgScrollLeft 5s linear infinite;
+}
+
+@keyframes bgScrollLeft {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -288px 0;
+    }
 }

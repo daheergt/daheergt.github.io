@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "monogram";
+    src: url(monogram.ttf);
+}
+
+html {
+    background-color: #222323
+}
+
+* {
+    font-family:monogram;
+    color: #f0f6f0
+}

@@ -35,8 +35,6 @@ video {
     right: 0;
     z-index: -1;
     margin: 50px auto;
-    height: 250px;
-    width: 250px;
     background: url(Pattern_vid.png) repeat;
     animation: vidScrollUp 3s linear infinite;
 }

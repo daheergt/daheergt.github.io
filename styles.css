@@ -4,6 +4,7 @@
 }
 
 html {
+    image-rendering: pixelated;
     background-color: #222323;
     padding: 20px;
 }
@@ -13,14 +14,9 @@ h1 {
     font-size: 64px;
 }
 
-bar {
-    margin: 20px;
-    padding:10px;
-    padding-top:13px;
-
-    border: 5px solid #f0f6f0;
-    font-size: 32px;
-    text-align: center;
+.bar {
+    width: 291px;
+    height: 72px;
 }
 
 video {
@@ -36,12 +32,13 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    right:0;
-
+    right: 0;
     z-index: -1;
     margin: 50px auto;
-
-    text-align:center;
+    height: 250px;
+    width: 250px;
+    background: url(Pattern_vid.png) repeat;
+    animation: vidScrollUp 3s linear infinite;
 }
 
 .ITCH:before {
@@ -95,5 +92,15 @@ p {
 
     to {
         background-position: -288px 0;
+    }
+}
+
+@keyframes vidScrollUp {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 12px 12px;
     }
 }

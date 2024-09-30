@@ -90,6 +90,13 @@ p {
     animation: bgScrollLeft 5s linear infinite;
 }
 
+#Games {
+    display: inline-block;
+    width:500px;
+
+
+}
+
 @keyframes bgScrollLeft {
     from {
         background-position: 0 0;

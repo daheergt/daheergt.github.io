@@ -64,6 +64,13 @@ left {
 
 
 h1 {
+    font: 800 40px Arial;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
     font-size: 64px;
 }
 

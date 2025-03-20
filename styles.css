@@ -48,6 +48,11 @@ left {
     animation: AnimateBox 1.5s linear infinite;
 }
 
+.Untouchable {
+    pointer-events: none;
+    user-select: none;
+}
+
 @keyframes AnimateBox {
     0% {
         margin-top: -5px;
@@ -60,6 +65,16 @@ left {
     100% {
         margin-top: -5px;
     }
+}
+
+.closebutton {
+    position: absolute;
+    top: -10%;
+    right: -5%;
+    font-size: 25px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -88,7 +103,6 @@ p {
     top: 2%;
     left: 2%;
     font-size: 25px;
-    text-shadow: 0px 5px 0px #000000;
 }
 
 

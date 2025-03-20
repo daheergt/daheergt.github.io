@@ -12,33 +12,34 @@
 <body>
     <div class="TopBar">
         <left>DAHEER.EXE</left>
-        <img class="right" src="./Images/TopLeftBar.png">
+        <img class="right Untouchable" src="./Images/TopLeftBar.png">
     </div>
 
-    <img class="MiddleImage" src="./Images/Name.png">
+    <img class="MiddleImage Untouchable" src="./Images/Name.png">
 
-    <img style="transform: translate(-50%, 140%); animation-delay: -0.2s;" class="MiddleImage" src="./Images/Description.png">
+    <img style="transform: translate(-50%, 140%); animation-delay: -0.2s;" class="MiddleImage Untouchable" src="./Images/Description.png">
 
 
     <a href="https://x.com/daheergt" target="_blank" style="transform: translate(-50%, -140%); animation-delay: -0.5s; " class="MiddleImage">
-        <img src="./Images/BoomBox.gif">
+        <img class="Untouchable" src="./Images/BoomBox.gif">
     </a>
 
     <a href="https://daheergt.itch.io/" target="_blank" style="transform: translate(-125%, 80%); animation-delay: -0.7s; " class="MiddleImage">
-        <img src="./Images/EYE.gif">
+        <img class="Untouchable" src="./Images/EYE.gif">
         <h1>GAMES?</h1>
     </a>
 
-    <a style="transform: translate(25%, 80%); animation-delay: -0.95s; " class="MiddleImage">
-        <img src="./Images/Forest.gif">
+    <a onclick="Show()" style="transform: translate(25%, 80%); animation-delay: -0.95s; cursor:pointer;" class="MiddleImage">
+        <img class="Untouchable" src="./Images/Forest.gif">
         <h2>Work Experience</h2>
     </a>
 
-    <a style="animation-delay: -0.12s; " class="MiddleImage">
-        <img src="./Images/CMD.png">
+    <div id="JobWind" style="animation-delay: -0.12s; transition-timing-function: ease-in; transition: 0.2s; transform:translate(-50%, 50%) scale(0);" class="MiddleImage">
+        <img class="Untouchable" src="./Images/CMD.png">
         <p style="white-space: pre-wrap;" id="Work"></p>
         <script src="Script.js"></script>
-    </a>
+        <a onclick="Hide()" class="closebutton"></a>
+    </div>
 
 
 </body>

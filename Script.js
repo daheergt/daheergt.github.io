@@ -1,11 +1,7 @@
-var paragraph = document.getElementById("WorkExperience");
+var paragraph = document.getElementById("Work");
 
-content = "";
-
-fetch("work.txt")
+fetch("https://raw.githubusercontent.com/daheergt/daheergt.github.io/refs/heads/main/work.txt")
     .then((res) => res.text())
     .then((text) => {
-        content += text
+        paragraph.textContent += text + "";
     })
-
-paragraph.textContent += content;

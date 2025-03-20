@@ -78,8 +78,16 @@ h2 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -125%);
-    font-size: 60px;
+    transform: translate(-50%, -115%);
+    font-size: 50px;
+    text-shadow: 0px 5px 0px #000000;
+}
+
+p {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    font-size: 25px;
     text-shadow: 0px 5px 0px #000000;
 }
 
